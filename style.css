@@ -99,6 +99,7 @@ transition:.3s
 @media only screen and (max-width:430px) {
     .todo-form{
         width: 350px;
+        margin-top: 50px;
     }
     .todo-form__input{
         width: 200px;
@@ -129,6 +130,6 @@ transition:.3s
     .todos__check{
         position: absolute;
         left: 15px;
-        top: 12px;
+        top: 10px;
     }
 }
