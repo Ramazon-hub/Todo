@@ -80,3 +80,55 @@ transition:.3s
     
 
 }
+@media only screen and (max-width:600px) {
+    .todo-form{
+        width: 400px;
+    }
+    .todo-form__input{
+        width: 250px;
+        padding: 7px;
+        font-size: 20px;
+    }
+
+    .todo-form__btn{
+        font-size: 15px;
+        padding: 7px;
+        
+    }
+}
+@media only screen and (max-width:430px) {
+    .todo-form{
+        width: 350px;
+    }
+    .todo-form__input{
+        width: 200px;
+        margin-right: 10px;
+        padding: 7px;
+        font-size: 18px;
+    }
+
+    .todo-form__btn{
+        font-size: 14px;
+        padding: 7px;
+        
+    }
+    .todos-list{
+        margin-top: 5px;
+    }
+    .todos-list__item{
+        border-radius: 10px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .todos__text{
+        padding:7px 7px 7px 60px;
+        font-size: 16px;
+        
+    }
+    .todos__check{
+        position: absolute;
+        left: 15px;
+        top: 12px;
+    }
+}

@@ -3,8 +3,8 @@ var todoInput = document.querySelector('.todo-form__input');
 var todosList = document.querySelector('.todos-list');
 var todoArray = [];
 var id = todoArray.length+1;
-var monitoring;
-var count = 0;
+// var monitoring;
+// var count = 0;
     todoFrom.addEventListener('submit',function(evt){
         evt.preventDefault();
         var inputValue = todoInput.value;
@@ -28,19 +28,14 @@ var count = 0;
         newCheckbox.className = 'todos__check'  ;
         newCheckbox.addEventListener('checked',function(){
             newObj.isComplated = true;
-            // count++;
+            
         })
         newP.textContent = newObj.todoName; 
         newLi.appendChild(newCheckbox);
         newLi.appendChild(newP);
        todosList.appendChild(newLi)
          todosList.appendChild(newLi)
-        todoArray.push(newObj);
-        console.log(todoArray); 
-        for(var i of todoArray)
-        if(todoArray)
-        monitoring = count/newObj.id
-        console.log(monitoring)      
+        todoArray.push(newObj);    
         todoInput.value = ''
        
     })
